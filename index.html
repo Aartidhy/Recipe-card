@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chocolate Cake Recipe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>🍫 Chocolate Cake</h1>
+    <p>Moist, rich and chocolatey — ready in under an hour.</p>
+
+    <div class="buttons">
+      <button id="btnIngredients">Show Ingredients</button>
+      <button id="btnSteps">Show Steps</button>
+      <button id="startBtn">Start Cooking</button>
+      <button id="nextBtn" disabled>Next Step</button>
+    </div>
+
+    <div class="progress">
+      <div id="progressBar"></div>
+    </div>
+    <p id="progressText">Progress: 0%</p>
+
+    <!-- Ingredients -->
+    <div id="ingredients" class="panel">
+      <h2>Ingredients</h2>
+      <ul>
+        <li>2 cups flour</li>
+        <li>1 and 1/2 cups sugar</li>
+        <li>3/4 cup cocoa powder</li>
+        <li>1 and 1/2 tsp baking powder</li>
+        <li>1 and 1/2 tsp baking soda</li>
+        <li>1 tsp salt</li>
+        <li>2 eggs</li>
+        <li>1 cup milk</li>
+        <li>1/2 cup oil</li>
+        <li>2 tsp vanilla</li>
+        <li>1 cup boiling water</li>
+      </ul>
+    </div>
+
+    <!-- Steps -->
+    <div id="steps" class="panel">
+      <h2>Steps</h2>
+      <ol id="stepList">
+        <li>Preheat oven to 180°C and grease pans.</li>
+        <li>Mix flour, sugar, cocoa, baking powder, soda, and salt.</li>
+        <li>Add eggs, milk, oil, vanilla. Mix well.</li>
+        <li>Stir in boiling water (batter will be thin).</li>
+        <li>Pour into pans.</li>
+        <li>Bake 30–35 minutes.</li>
+        <li>Cool for 10 minutes then remove from pans.</li>
+        <li>Frost and enjoy 🎂</li>
+      </ol>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</bo
+
